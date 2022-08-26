@@ -1,6 +1,4 @@
-# Memory
-
-## Memory Ranges in SBL
+# Memory Ranges in SBL
 
 | #  | Start          | End          | Flags? |
 |----|----------------|--------------|--------|
@@ -15,9 +13,18 @@
 | 8  | 0xae900000     | 0xaeb00000   | 0x12   |
 | 9  | 0x85000000     | 0x95000000   | 0x12   |
 
-### Important addresses
+## Important addresses
 
 | Address    | Purpose                    |
 |------------|----------------------------|
+| 0x34051fe4 | `INFORM0`                  |
+| 0x34051fe8 | `INFORM1`                  |
+| 0x34051fec | `INFORM2`                  |
+| 0x34051ff0 | [`INFORM3`](../state.md)   |
+| 0x34051ff4 | `INFORM4`                  |
+| 0x34051ff8 | `INFORM5`                  |
+| 0x34051ffc | `INFORM6`                  |
+| 0x35004024 | [`RST_STAT`](../state.md)  |
+| 0x81e08000 | Linux kernel entry address |
 | 0xae200000 | SBL binary mapping address |
 | 0xae900000 | Logging buffer             |
