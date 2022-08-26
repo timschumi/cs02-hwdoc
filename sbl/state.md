@@ -1,4 +1,4 @@
-# State flags
+# State registers
 
 ## `RST_STAT`
 
