@@ -14,10 +14,7 @@
 ## `INFORM3`
 
 - `0x00000000`: Default/Reset
-- `0x1234567?`: `?` is the `REBOOT_MODE`
-  - `?` is `0x1`: Download mode
-  - `?` is `0x4`: Recovery mode
-  - `?` is `0x6`: FOTA BL
+- `0x1234567?`: `?` is the [`REBOOT_MODE`](env.md#reboot_mode)
 - `0xabcd????`: `????` is the `DEBUG_LEVEL`
 - `0xabcf????`: SUD mode, `????` is the SUD number
 - `0xffffffff`: "set recovery mode for next boot"
