@@ -29,3 +29,17 @@ During upload mode:
 ## `INFORM5`
 
 - `0xbdbd????`: `????` overrides the Board revision
+
+## "State Flags"
+
+The "State Flags" at address `0xae2a0044` get used to control the boot mode and state of the current boot.
+
+| Bit | Value   | Purpose       |
+|-----|---------|---------------|
+| 0   | 0x1     | Odin Flag     |
+| 1   | 0x2     | Error Flag    |
+| 2   | 0x4     | Factory Flag  |
+| 16  | 0x10000 | Upload Mode   |
+| 17  | 0x20000 | Download Mode |
+| 18  | 0x40000 | LPM Mode      |
+| 19  | 0x80000 | Recovery Mode |

@@ -27,6 +27,8 @@
 | 0x35004024 | [`RST_STAT`](state.md#rst_stat)         |
 | 0x81e08000 | Linux kernel entry address              |
 | 0xae200000 | SBL binary mapping address              |
+| 0xae2a0044 | [State flags](state.md#state-flags)     |
+| 0xae31931c | UART debug output switch                |
 | 0xae41a5b4 | [Integer Environment Variables](env.md) |
 | 0xae41a5e0 | [String Environment Variables](env.md)  |
 | 0xae900000 | Logging buffer                          |
