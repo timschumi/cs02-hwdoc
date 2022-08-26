@@ -19,10 +19,10 @@
 |------------|---------------------------------|
 | 0x34051fe4 | `INFORM0`                       |
 | 0x34051fe8 | `INFORM1`                       |
-| 0x34051fec | `INFORM2`                       |
+| 0x34051fec | [`INFORM2`](state.md#inform2)   |
 | 0x34051ff0 | [`INFORM3`](state.md#inform3)   |
 | 0x34051ff4 | `INFORM4`                       |
-| 0x34051ff8 | `INFORM5`                       |
+| 0x34051ff8 | [`INFORM5`](state.md#inform5)   |
 | 0x34051ffc | `INFORM6`                       |
 | 0x35004024 | [`RST_STAT`](state.md#rst_stat) |
 | 0x81e08000 | Linux kernel entry address      |
