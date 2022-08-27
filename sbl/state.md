@@ -15,7 +15,7 @@
 
 - `0x00000000`: Default/Reset
 - `0x1234567?`: `?` is the [`REBOOT_MODE`](env.md#reboot_mode)
-- `0xabcd????`: `????` is the `DEBUG_LEVEL`
+- `0xabcd????`: `????` is the [`DEBUG_LEVEL`](env.md#debug_level)
 - `0xabcf????`: SUD mode, `????` is the SUD number
 - `0xffffffff`: "set recovery mode for next boot"
 
